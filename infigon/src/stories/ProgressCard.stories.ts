@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import  {Button } from './Button';
+import  ProgressCard from '../components/ProgressCard';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Button',
-  component: Button,
+  title: 'ProgressCard',
+  component: ProgressCard,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
@@ -16,29 +16,29 @@ const meta = {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof ProgressCard>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Primary: Story = {
+export const side: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'course Card',
   },
 };
 
-export const Secondary: Story = {
+export const mobile: Story = {
   args: {
-    label: 'Button',
+    label: 'course Card',
   },
 };
 
 export const Large: Story = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'course Card',
   },
 };
 
