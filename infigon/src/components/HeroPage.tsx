@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./HeroPage.module.css";
+import Button from "./Button";
 
 function HeroPage() {
   return (
@@ -14,12 +15,13 @@ function HeroPage() {
             <p>
             Life Mentors to shape your career
             </p>
-            <a
+            {/* <a
               href="#"
               className={`${styles.primaryButton} ${styles.getStartedBtn}`}
             >
               Get Started
-            </a>
+            </a> */}
+                <Button title="Get Started"/>
           </div>
           {/*  Right Header  */}
           <div className="headerRight">

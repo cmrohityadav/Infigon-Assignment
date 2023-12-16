@@ -1,5 +1,6 @@
 import React from 'react'
-import ButtonAddCart from './ButtonAddCart'
+import Button from './Button'
+
 
 function CouseItem({icon,price,rating,name}) {
   return (
@@ -75,7 +76,8 @@ function CouseItem({icon,price,rating,name}) {
               {price}
             </span>
             
-            <ButtonAddCart/>
+            <Button title='Add to cart'/>
+            
 
           </div>
         </div>
