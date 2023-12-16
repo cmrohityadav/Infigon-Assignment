@@ -20,7 +20,7 @@ function NavBar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://uploads-ssl.webflow.com/63f5ff2d3827b085d542bb85/63f7a88567f036ab37603c94_Artboard%201%20copy%202.svg" className="h-8" alt="Your Logo Alt Text" />
+            <p className='text-white'>EdTech</p>
           </a>
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

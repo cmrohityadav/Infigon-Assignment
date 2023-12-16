@@ -1,7 +1,14 @@
 import React from 'react'
 import TestimonialItem from './TestimonialItem'
 
-function TestimonialCard ({detail}) {
+interface card {
+ 
+    detail:Array<Object>;
+  
+   
+    
+  }
+function TestimonialCard ({detail}:card) {
   return (
     <>
   

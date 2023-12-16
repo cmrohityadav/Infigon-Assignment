@@ -1,8 +1,16 @@
 import React from 'react'
 
+interface My {
+ 
+    imgUrl:string;
+    detail:string;
+    naam:string;
+  
+   
+    
+  }
 
-
-function TestimonialItem({imgUrl,detail,naam}) {
+function TestimonialItem({imgUrl,detail,naam}:My) {
   return (
     <>
      <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -21,7 +29,7 @@ function TestimonialItem({imgUrl,detail,naam}) {
           </a>
           <br />
           <a href="#">
-            <h5 className="text-sm font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="text-sm  tracking-tight text-gray-900 dark:text-white">
              {detail}
             </h5>
           </a>

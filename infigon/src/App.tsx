@@ -1,5 +1,6 @@
 import './App.css'
 import CourseSection from './components/CourseSection'
+import Footer from './components/Footer'
 import HeroPage from './components/HeroPage'
 import NavBar from './components/NavBar'
 import ProgressCard from './components/ProgressCard'
@@ -23,6 +24,8 @@ function App() {
     <CourseSection/>
 
     <Testimonials/>
+
+    <Footer/>
 
     </>
   )
