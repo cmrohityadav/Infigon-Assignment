@@ -1,4 +1,5 @@
 import './App.css'
+import CourseSection from './components/CourseSection'
 import HeroPage from './components/HeroPage'
 import Navbar from './components/Navbar'
 import ProgressCard from './components/ProgressCard'
@@ -16,6 +17,9 @@ function App() {
 
     {/* progress items */}
     <ProgressCard/>
+
+    {/* course list */}
+    <CourseSection/>
 
     </>
   )
