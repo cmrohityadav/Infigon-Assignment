@@ -1,6 +1,8 @@
 import React from "react";
 import CouseItem from "./CouseItem";
 
+
+
 function CourseCard({list}) {
     console.log(list)
   return (

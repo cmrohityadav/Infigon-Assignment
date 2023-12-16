@@ -1,8 +1,18 @@
 import React from 'react'
 import Button from './Button'
+interface MyProps {
+ 
+  icon: string;
+  price:number;
+ 
+  name:string;
+  rating:number;
 
+ 
+  
+}
 
-function CouseItem({icon,price,rating,name}) {
+function CouseItem({icon,price,rating,name}:MyProps) {
   return (
     <>
     <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

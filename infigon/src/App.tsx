@@ -3,6 +3,7 @@ import CourseSection from './components/CourseSection'
 import HeroPage from './components/HeroPage'
 import NavBar from './components/NavBar'
 import ProgressCard from './components/ProgressCard'
+import Testimonials from './components/Testimonials'
 
 function App() {
   
@@ -20,6 +21,8 @@ function App() {
 
     {/* course list */}
     <CourseSection/>
+
+    <Testimonials/>
 
     </>
   )
