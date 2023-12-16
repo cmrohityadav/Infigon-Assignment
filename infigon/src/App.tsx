@@ -1,7 +1,7 @@
 import './App.css'
 import CourseSection from './components/CourseSection'
 import HeroPage from './components/HeroPage'
-import Navbar from './components/Navbar'
+import NavBar from './components/NavBar'
 import ProgressCard from './components/ProgressCard'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     {/* navbar */}
-        <Navbar/>
+        <NavBar/>
 
     {/* carousel */}
     <HeroPage/>
