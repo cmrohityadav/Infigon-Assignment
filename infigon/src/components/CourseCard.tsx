@@ -6,7 +6,7 @@ function CourseCard({list}) {
   return (
     <>
       
-        {list.map((e)=> <CouseItem name={e.name} icon={e.icon}  price={e.price} rating={e.rating}/>)}
+        {list.map((e)=> <CouseItem  key={e} name={e.name} icon={e.icon}  price={e.price} rating={e.rating}/>)}
       
     </>
   );
