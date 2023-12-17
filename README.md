@@ -10,14 +10,14 @@
 The EdTech React website is an innovative platform developed using React and Vite, seamlessly integrated with Tailwind CSS to ensure a modern and responsive design. The project focuses on providing an enriching user experience with a well-organized navigation bar, reusable components, modals, forms, buttons, and a prominent registration feature.
 
 ## Output 
-![Alt text](image.png)
+![Alt text](./image/image.png)
 
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+![Alt text](./image/image-1.png)
+![Alt text](./image/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](./image/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](./image/image-4.png)
 
 ## Key Features
 ### Navigation Bar
